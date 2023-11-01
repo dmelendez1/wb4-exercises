@@ -19,5 +19,5 @@ let part1 = parsePartCode(partCode1);
 console.log("Supplier: " + part1.supplierCode + " Product Number: " + part1.productNumber + " Size: " + part1.size);
 
 let partCode2 = "SUP123:4567-L";
-let part2 = parsePartCode(partCode1);
+let part2 = parsePartCode(partCode2);
 console.log("Supplier: " + part2.supplierCode + " Product Number: " + part2.productNumber + " Size: " + part2.size);
