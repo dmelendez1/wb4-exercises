@@ -35,7 +35,7 @@ function findCandiesByName(products, substring) {
 
 
 
-function isProductCarried(products, productName) {
+function isProductAvailable(products, productName) {
     for (let i = 0; i < products.length; i++) {
         if (products[i].product === productName) {
             return true;
@@ -43,6 +43,18 @@ function isProductCarried(products, productName) {
     }
     return false;
 }
+
+console.log("Candies below price $2.00:", candiesBelowPrice(products, 2.00)); 
+
+
+console.log("Candies containing 'M&M':", findCandiesByName(products, "M&M")); 
+
+
+console.log("Is 'Twix Bar' available?", isProductCarried(products, "Twix Bar")); 
+
+
+console.log("Is 'KitKat' available?", isProductCarried(products, "KitKat")); 
+
 
 
 

@@ -81,3 +81,11 @@ function courseIdsByLocation(courseList, location) {
 }
 
 
+console.log(startDateByCourseId(courses, "PROG200")); 
+
+console.log(titleByCourseId(courses, "PROG300")); 
+
+
+console.log(titlesByMaxFee(courses, 100)); 
+
+console.log(courseIdsByLocation(courses, "Classroom 1")); 
